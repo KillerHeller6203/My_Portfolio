@@ -20,7 +20,7 @@ export const projectsData = [
       "Docker"
     ],
     role: "Backend Developer",
-    link: "",
+    link: "https://github.com/KillerHeller6203/blog-backend",
     code: "https://github.com/KillerHeller6203",
     demo: "",
     image: blog,
@@ -41,7 +41,7 @@ export const projectsData = [
       "Docker"
     ],
     role: "Backend Developer",
-    link: "",
+    link: "https://github.com/KillerHeller6203/blog-microservices-backend",
     code: "https://github.com/KillerHeller6203",
     demo: "",
     image: microservices,
@@ -63,7 +63,7 @@ export const projectsData = [
       "Docker"
     ],
     role: "Backend Developer",
-    link: "",
+    link: "https://github.com/KillerHeller6203/Chat-Application",
     code: "https://github.com/KillerHeller6203",
     demo: "",
     image: chat,

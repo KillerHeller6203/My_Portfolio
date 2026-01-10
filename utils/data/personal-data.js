@@ -15,5 +15,5 @@ export const personalData = {
   stackOverflow: "https://stackoverflow.com/users/31857616/rick-dutta",
   leetcode: "https://leetcode.com/u/RickDutta1966/",
   resume:
-    "https://killerheller6203.github.io/Resume/",
+    "https://drive.google.com/file/d/1ILdsVKxec72u8QIGXwuaHNtzpSjroiLo/view?usp=sharing",
 };
