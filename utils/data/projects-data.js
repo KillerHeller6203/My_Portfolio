@@ -48,7 +48,42 @@ export const projectsData = [
   },
 
   {
-    id: 3,
+      id: 3,
+      name: 'AquaSenseAI',
+      description: "Developed a real-time water quality monitoring dashboard tracking 9+ parameters (pH, DO, BOD, turbidity, etc.) across 44+ monitoring stations in 28 Indian states. Implemented automated NSF Water Quality Index (WQI) computation and ARIMA-based time-series forecasting to analyze long-term water quality trends using historical data (2000–2022). Built interactive visualizations with geographic insights and basic anomaly detection for data validation.",
+      tools: ['Python', 'ARIMA', 'Javascript', 'Matplotlib', "Chart.js"],
+      role: 'Full-Stack Developer | Data Analytics Engineer',
+      link: "https://aqua-sense-ai.vercel.app/",
+      code: "https://github.com/KillerHeller6203/Aqua-Sense-AI",
+      demo: "",
+      image: chat,
+  },
+  {
+      id: 4,
+      name: 'PrepWell - AI Mock Interview System',
+      description: "Built an AI-powered mock interview platform that simulates real interview scenarios using role-specific, adaptive question generation with Google Gemini. Integrated Vapi AI for real-time voice-based interviews with low-latency speech synthesis and responses. Designed configurable interviewer personas using prompt engineering and developed an automated evaluation module providing structured feedback, transcripts, skill-wise scoring, and improvement suggestions to track user performance.",
+      tools: ['Javascript', 'Firebase (Auth)', 'Vapi AI', 'Google Gemini API', "ShadCN UI"],
+      role: 'Full-Stack Developer | AI Application Developer',
+      link: "https://github.com/KillerHeller6203/AI_PrepWell",
+      code: "https://github.com/KillerHeller6203",
+      demo: '',
+      image: chat,
+  },
+
+  {
+      id: 5,
+      name: 'AI Automation Workflow Prototype',
+      description: "End-to-end GenAI-powered automation workflow prototype built using n8n, LLMs, and external APIs. Designed modular, event-driven workflows using webhooks and cron triggers to automate tasks like lead processing, notifications, and data transformation. Implemented reusable JSON templates, mock AI agents for decision-making, and integrations with Slack/CRM/Email systems. Focused on scalability, extensibility, and real-world automation patterns used in production AI ops.",
+      tools: ['n8n', 'JavaScript', 'AI Agents (Mocked)', 'Webhooks', 'Cron', 'JSON Templates',"Slack/CRM/Email (Mock)"],
+      role: 'AI Automation Engineer | Workflow Automation Developer',
+      link: "https://github.com/KillerHeller6203/ai-automation-engineer-prototype",
+      code: "https://github.com/KillerHeller6203",
+      demo: '',
+      image: chat,
+  },
+
+  {
+    id: 6,
     name: "Real-Time Chat Application",
     description:
       "Designed and developed a real-time chat backend using Spring Boot and WebSockets, supporting authenticated messaging across multiple chat rooms. Implemented JWT-based authentication and role-based access control (RBAC) to ensure secure communication. Built REST APIs for user management, chat room creation, and message history persistence using PostgreSQL and Spring Data JPA. Containerized the application with Docker and deployed it for testing, achieving reliable real-time communication with support for 100+ concurrent sessions.",
@@ -68,16 +103,7 @@ export const projectsData = [
     demo: "",
     image: chat,
   },
-  // {
-  //     id: 4,
-  //     name: 'Newsroom Management',
-  //     description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-  //     tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-  //     code: '',
-  //     demo: '',
-  //     image: ayla,
-  //     role: 'Full Stack Developer',
-  // }
+  
 ];
 
 // Do not remove any property.

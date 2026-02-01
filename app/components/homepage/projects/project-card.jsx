@@ -60,9 +60,17 @@ function ProjectCard({ project }) {
             </div>
             <div>
               <span className="ml-4 lg:ml-8 mr-2 text-white">Link:</span>
-              <span className="text-orange-400">{project.link}</span>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-400 hover:underline"
+              >
+                {'Open GitHub Repository'}
+              </a>
               <span className="text-gray-400">,</span>
             </div>
+
             <div className="ml-4 lg:ml-8 mr-2">
               <span className="text-white">Description:</span>
               <span className="text-cyan-400">{" " + project.description}</span>

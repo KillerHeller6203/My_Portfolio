@@ -128,7 +128,9 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JWT Authentication</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Microservices</span>
+                <span className="text-amber-300">Spring Data JPA & Hibernate</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Microservices Architecture</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">API Gateway (Spring Cloud Gateway)</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -137,6 +139,16 @@ function HeroSection() {
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git & GitHub</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">AWS (EC2, S3)</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">GenAI Application Development</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">n8n Workflow Automation</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">AI Agents (Prompt-based)</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Webhooks & Cron Jobs</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
