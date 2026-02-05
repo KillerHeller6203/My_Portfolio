@@ -140,17 +140,26 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git & GitHub</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS (EC2, S3)</span>
+                <span className="text-amber-300">Event-Driven Architecture</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">GenAI Application Development</span>
+                <span className="text-amber-300">Retrieval-Augmented Generation (RAG)</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Vector Databases (Qdrant)</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Inngest Workflow Orchestration</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Hugging Face Embeddings</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Ollama (Local LLMs)</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">n8n Workflow Automation</span>
+                <span className="text-gray-400">{"',"}</span>
+                <span className="text-amber-300">AI Agents (Prompt-based)</span> 
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AI Agents (Prompt-based)</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Webhooks & Cron Jobs</span>
+                <span className="text-amber-300">Webhooks & Cron Jobs</span> 
                 <span className="text-gray-400">{"'],"}</span>
               </div>
+
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
                   hardWorker:

@@ -11,7 +11,7 @@ export const experiences = [
     id: 2,
     title: "GenAI / AI Automation Development",
     type: "Self-Employed / Personal Projects",
-    company: "Designed and developed GenAI-powered applications and intelligent automation workflows by integrating LLMs, AI agents, and n8n-based pipelines, enabling data-driven decision-making and scalable AI solutions.",
+    company: "Designed and developed GenAI-powered applications and intelligent automation workflows using n8n-based pipelines, integrating LLMs, AI agents, and event-driven RAG systems. Implemented asynchronous document ingestion, vector search with Qdrant, and local LLM inference to enable scalable, cost-efficient, and data-driven AI solutions.",
     description: "Designed and developed GenAI-powered applications and intelligent automation workflows by integrating LLMs, AI agents, and n8n-based pipelines, enabling data-driven decision-making and scalable AI solutions.",
     duration: "(2024 - Present)",
   },
