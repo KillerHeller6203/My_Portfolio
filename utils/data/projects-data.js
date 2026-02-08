@@ -27,7 +27,7 @@ export const projectsData = [
   },
   {
       id: 2,
-      name: 'AI Automation Workflow Prototype',
+      name: 'AI Automation Workflow',
       description: "End-to-end GenAI-powered automation workflow prototype built using n8n, LLMs, and external APIs. Designed modular, event-driven workflows using webhooks and cron triggers to automate tasks like lead processing, notifications, and data transformation. Implemented reusable JSON templates, mock AI agents for decision-making, and integrations with Slack/CRM/Email systems. Focused on scalability, extensibility, and real-world automation patterns used in production AI ops.",
       tools: ['n8n', 'JavaScript', 'AI Agents (Mocked)', 'Webhooks', 'Cron', 'JSON Templates',"Slack/CRM/Email (Mock)"],
       role: 'AI Automation Engineer | Workflow Automation Developer',
