@@ -5,7 +5,18 @@ import microservices from "/public/image/ayla.jpg";
 
 export const projectsData = [
   {
-    id: 1,
+      id: 1,
+      name: 'Ultra Doc-Intelligence – Grounded RAG System',
+      description: "Backend-first, document-centric RAG system built for logistics documents with strict hallucination control. Designed an end-to-end pipeline using FastAPI, FAISS vector search, and local LLM inference (Ollama – Llama3). Implemented recursive chunking, semantic top-k retrieval, deterministic confidence scoring, and pre-generation guardrails that block weak retrieval. Built schema-stable extraction APIs with refusal logic to ensure grounded, explainable, and production-ready GenAI outputs.",
+      tools: ['Python', 'FastAPI', 'FAISS', 'Sentence Transformers', 'Ollama (Llama3)', 'Streamlit', 'RAG', 'Vector Search', 'Prompt Engineering', 'Guardrails'],
+      role: 'GenAI Engineer | Backend AI Systems Developer',
+      link: "https://github.com/KillerHeller6203/ultra-doc-intelligence",
+      code: "https://github.com/KillerHeller6203",
+      demo: '',
+      image: chat,
+  },
+  {
+    id: 2,
     name: "Event-Driven RAG System",
     description:
       "Built a production-oriented Retrieval-Augmented Generation (RAG) system using an event-driven architecture. Implemented asynchronous PDF ingestion, chunking, and embeddings with Hugging Face, stored vectors in Qdrant, and enabled semantic search at query time. Orchestrated workflows with Inngest for retries and observability, and generated grounded answers using a local LLM (Ollama). Included an optional Streamlit UI for document upload and querying.",
@@ -25,17 +36,7 @@ export const projectsData = [
     demo: "",
     image: blog,
   },
-  {
-      id: 2,
-      name: 'AI Automation Workflow',
-      description: "End-to-end GenAI-powered automation workflow prototype built using n8n, LLMs, and external APIs. Designed modular, event-driven workflows using webhooks and cron triggers to automate tasks like lead processing, notifications, and data transformation. Implemented reusable JSON templates, mock AI agents for decision-making, and integrations with Slack/CRM/Email systems. Focused on scalability, extensibility, and real-world automation patterns used in production AI ops.",
-      tools: ['n8n', 'JavaScript', 'AI Agents (Mocked)', 'Webhooks', 'Cron', 'JSON Templates',"Slack/CRM/Email (Mock)"],
-      role: 'AI Automation Engineer | Workflow Automation Developer',
-      link: "https://github.com/KillerHeller6203/ai-automation-engineer-prototype",
-      code: "https://github.com/KillerHeller6203",
-      demo: '',
-      image: chat,
-  },
+  
   {
     id: 3,
     name: "Microservices Blog Platform",
@@ -60,22 +61,22 @@ export const projectsData = [
 
   {
       id: 4,
-      name: 'AquaSenseAI',
-      description: "Developed a real-time water quality monitoring dashboard tracking 9+ parameters (pH, DO, BOD, turbidity, etc.) across 44+ monitoring stations in 28 Indian states. Implemented automated NSF Water Quality Index (WQI) computation and ARIMA-based time-series forecasting to analyze long-term water quality trends using historical data (2000–2022). Built interactive visualizations with geographic insights and basic anomaly detection for data validation.",
-      tools: ['Python', 'ARIMA', 'Javascript', 'Matplotlib', "Chart.js"],
-      role: 'Full-Stack Developer | Data Analytics Engineer',
-      link: "https://aqua-sense-ai.vercel.app/",
+      name: 'AI Avatar Interaction System',
+      description: "Real-time, voice-based AI interview system enabling low-latency conversations using STT, LLMs, and TTS. Built a WebSocket-driven streaming pipeline with FastAPI to handle bi-directional audio and token streaming. Integrated offline Whisper for speech-to-text, streaming LLM inference, and browser-side audio playback with clean session and state isolation. Designed a modular backend architecture separating STT, LLM, and TTS components for scalability and production readiness.",
+      tools: ['Python', 'FastAPI', 'WebSockets', 'Whisper (STT)', 'LLMs', 'TTS', 'Next.js', 'React', 'FFmpeg', 'Web Audio API'],
+      role: 'AI Systems Engineer | Real-Time AI Developer',
+      link: "https://github.com/KillerHeller6203/Ai-Avatar-Interaction",
       code: "https://github.com/KillerHeller6203/Aqua-Sense-AI",
       demo: "",
       image: chat,
   },
   {
       id: 5,
-      name: 'PrepWell - AI Mock Interview System',
-      description: "Built an AI-powered mock interview platform that simulates real interview scenarios using role-specific, adaptive question generation with Google Gemini. Integrated Vapi AI for real-time voice-based interviews with low-latency speech synthesis and responses. Designed configurable interviewer personas using prompt engineering and developed an automated evaluation module providing structured feedback, transcripts, skill-wise scoring, and improvement suggestions to track user performance.",
-      tools: ['Javascript', 'Firebase (Auth)', 'Vapi AI', 'Google Gemini API', "ShadCN UI"],
-      role: 'Full-Stack Developer | AI Application Developer',
-      link: "https://github.com/KillerHeller6203/AI_PrepWell",
+      name: 'Support Ticket System',
+      description: "Production-style full-stack Support Ticket System built with Django REST Framework, React, and PostgreSQL, containerized using Docker Compose. Designed REST APIs for ticket creation, filtering, search, status workflows, and aggregated analytics using optimized database queries. Integrated an LLM-based real-time classification service to suggest category and priority, with graceful fallback handling to maintain reliability. Focused on clean data modeling, backend validation, and scalable API design aligned with SaaS workflows.",
+      tools: ['Python', 'Django', 'Django REST Framework', 'React', 'PostgreSQL', 'Docker', 'LLM Integration', 'REST APIs'],
+      role: 'Backend Developer | Full-Stack Engineer',
+      link: "https://github.com/KillerHeller6203/Improved-Support-Ticket-System",
       code: "https://github.com/KillerHeller6203",
       demo: '',
       image: chat,
