@@ -147,7 +147,7 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Ollama</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Vector Databases(FAISS, Qdrant)</span>
+                <span className="text-amber-300">Vector Databases(FAISS,  Qdrant)</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
 

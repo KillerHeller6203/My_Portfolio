@@ -3,16 +3,18 @@ export const experiences = [
     id: 1,
     title: "Backend Developer (Project-Based)",
     type: "Self-Employed / Personal Projects",
-    company: "Built and maintained scalable, secure backend systems using Java, Spring Boot, REST APIs, JWT-based authentication, microservices architecture, and relational databases, with a focus on real-world, production-ready use cases.",
-    description: "Built and maintained scalable, secure backend systems using Java, Spring Boot, REST APIs, JWT-based authentication, microservices architecture, and relational databases, with a focus on real-world, production-ready use cases.",
+    company: "Built backend systems using Java (Spring Boot) and Python (FastAPI). Implemented JWT authentication, REST APIs, microservices architecture, PostgreSQL integration, Docker-based setup, and real-time communication using WebSockets across multiple projects.",
+    description:
+      "Built backend systems using Java (Spring Boot) and Python (FastAPI). Implemented JWT authentication, REST APIs, microservices architecture, PostgreSQL integration, Docker-based setup, and real-time communication using WebSockets across multiple projects.",
     duration: "(2023 - Present)",
   },
   {
     id: 2,
-    title: "GenAI / AI Automation Development",
+    title: "GenAI & AI Systems Development",
     type: "Self-Employed / Personal Projects",
-    company: "Designed and developed GenAI-powered applications and intelligent automation workflows using n8n-based pipelines, integrating LLMs, AI agents, and event-driven RAG systems. Implemented asynchronous document ingestion, vector search with Qdrant, and local LLM inference to enable scalable, cost-efficient, and data-driven AI solutions.",
-    description: "Designed and developed GenAI-powered applications and intelligent automation workflows by integrating LLMs, AI agents, and n8n-based pipelines, enabling data-driven decision-making and scalable AI solutions.",
+    company: "Developed GenAI applications including grounded RAG systems, event-driven document pipelines, and real-time AI interview systems. Worked with vector databases (FAISS/Qdrant), semantic retrieval, local LLMs (Ollama), and LLM-based classification integrated into full-stack applications.",
+    description:
+      "Developed GenAI applications including grounded RAG systems, event-driven document pipelines, and real-time AI interview systems. Worked with vector databases (FAISS/Qdrant), semantic retrieval, local LLMs (Ollama), and LLM-based classification integrated into full-stack applications.",
     duration: "(2024 - Present)",
   },
 ];
