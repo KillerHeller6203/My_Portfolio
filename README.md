@@ -1,7 +1,4 @@
 # Developer Portfolio
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
 ---
 
 # Demo :movie_camera:
@@ -102,20 +99,19 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  name: "...",
+  profile: "...",
+  designation: "...",
+  description: "...",
+  email: "...",
+  phone: "...",
+  address: "...,
+  github: "...",
+  linkedIn: "...",
+  twitter: "...",
+  stackOverflow: "...",
+  leetcode: "...",
+  devUsername: "...",
   resume: "...",
 };
 ```
