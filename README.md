@@ -105,7 +105,7 @@ export const personalData = {
   description: "...",
   email: "...",
   phone: "...",
-  address: "...,
+  address: "...",
   github: "...",
   linkedIn: "...",
   twitter: "...",
