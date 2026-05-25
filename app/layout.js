@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata = {
   title: 'Portfolio of Sounak Dutta',
-  description: 'This is the portfolio of Sounak Dutta. I am a Backend-focused Java developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  description: 'This is the portfolio of Sounak Dutta. I am a Backend-focused AI developer building intelligent and scalable applications and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
 }
 
 export default function RootLayout({ children }) {

@@ -7,7 +7,7 @@ export const personalData = {
 
   email: "duttarick1966@gmail.com",
   phone: "+91 8100279796",
-  address: "K.K.Majumdar Road, Kolkata-700075 India",
+  address: "Kolkata, West Bengal, India",
   github: "https://github.com/KillerHeller6203",
   facebook: "",
   linkedIn: "https://www.linkedin.com/in/dutta-sounak",
