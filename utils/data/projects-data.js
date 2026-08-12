@@ -5,40 +5,60 @@ import microservices from "/public/image/ayla.jpg";
 
 export const projectsData = [
   {
-      id: 1,
-      name: 'Ultra Doc-Intelligence – Grounded RAG System',
-      description: "Backend-first, document-centric RAG system built for logistics documents with strict hallucination control. Designed an end-to-end pipeline using FastAPI, FAISS vector search, and local LLM inference (Ollama – Llama3). Implemented recursive chunking, semantic top-k retrieval, deterministic confidence scoring, and pre-generation guardrails that block weak retrieval. Built schema-stable extraction APIs with refusal logic to ensure grounded, explainable, and production-ready GenAI outputs.",
-      tools: ['Python', 'FastAPI', 'FAISS', 'Sentence Transformers', 'Ollama (Llama3)', 'Streamlit', 'RAG', 'Vector Search', 'Prompt Engineering', 'Guardrails'],
-      role: 'GenAI Engineer | Backend AI Systems Developer',
-      link: "https://github.com/KillerHeller6203/ultra-doc-intelligence",
-      code: "https://github.com/KillerHeller6203",
-      demo: '',
-      image: chat,
-  },
+    id: 1,
+    name: 'AI Avatar Interaction System',
+    description: "Real-time, voice-based AI interview system enabling low-latency conversations using STT, LLMs, and TTS. Built a WebSocket-driven streaming pipeline with FastAPI to handle bi-directional audio and token streaming. Integrated offline Whisper for speech-to-text, streaming LLM inference, and browser-side audio playback with clean session and state isolation. Designed a modular backend architecture separating STT, LLM, and TTS components for scalability and production readiness.",
+    tools: ['Python', 'FastAPI', 'WebSockets', 'Whisper (STT)', 'LLMs', 'TTS', 'Next.js', 'React', 'FFmpeg', 'Web Audio API'],
+    role: 'AI Systems Engineer | Real-Time AI Developer',
+    link: "https://github.com/KillerHeller6203/Ai-Avatar-Interaction",
+    code: "https://github.com/KillerHeller6203/Aqua-Sense-AI",
+    demo: "",
+    image: chat,
+},
   {
     id: 2,
-    name: "Event-Driven RAG System",
+    name: "RAG Vector Search Benchmark",
     description:
-      "Built a production-oriented Retrieval-Augmented Generation (RAG) system using an event-driven architecture. Implemented asynchronous PDF ingestion, chunking, and embeddings with Hugging Face, stored vectors in Qdrant, and enabled semantic search at query time. Orchestrated workflows with Inngest for retries and observability, and generated grounded answers using a local LLM (Ollama). Included an optional Streamlit UI for document upload and querying.",
+      "Built and benchmarked three retrieval strategies (raw vector search, query expansion + reranking, and HyDE) against a distributed-systems document corpus, measuring MRR, Hit@3, context precision, and latency. Designed every component (embedder, vector store, retriever) behind abstract base classes for a documented, swappable migration path to Vertex AI. Backed by a 25-test pytest suite with coverage reporting to validate embeddings, storage, retrieval, and evaluation logic independently.",
     tools: [
       "Python",
-      "FastAPI",
-      "Inngest",
-      "Qdrant",
-      "Hugging Face",
-      "Ollama",
-      "Streamlit",
-      "Docker"
+      "FAISS",
+      "Sentence Transformers",
+      "Cross-Encoder Reranking",
+      "HyDE",
+      "pytest",
+      "Vector Search",
+      "RAG"
     ],
-    role: "Backend / GenAI Developer",
-    link: "https://github.com/KillerHeller6203/event-driven-rag-system",
+    role: "GenAI Engineer | Backend AI Systems Developer",
+    link: "https://github.com/KillerHeller6203/Teleport-Sementic-RAG-Vector-Search",
     code: "https://github.com/KillerHeller6203",
     demo: "",
     image: blog,
   },
-  
   {
     id: 3,
+    name: "SAP O2C Graph Explorer",
+    description:
+      "Built a context-graph system with an LLM-powered natural-language query interface for exploring real SAP Order-to-Cash data across 19 relational tables. Implemented two-stage LLM prompting (NL-to-SQL generation, then grounded response synthesis) with conversation memory for follow-up queries, and prompt-injection guardrails that reject off-topic questions before executing any query. Built an interactive D3.js graph frontend with live node highlighting tied to query results, and a transparent NL-to-SQL toggle for every response.",
+    tools: [
+      "Python",
+      "FastAPI",
+      "Gemini",
+      "SQLite",
+      "SQLAlchemy",
+      "D3.js",
+      "Prompt Engineering",
+      "Guardrails"
+    ],
+    role: "Backend / GenAI Developer",
+    link: "https://github.com/KillerHeller6203/sap_o2c_graph_explorer",
+    code: "https://github.com/KillerHeller6203",
+    demo: "https://sap-o2c-graph-explorer-2nd1.onrender.com/",
+    image: chat,
+  },
+  {
+    id: 4,
     name: "Microservices Blog Platform",
     description:
       "Built a microservices-based blog platform by decomposing a monolithic application into independent services for user management, posts, categories, and authentication. Implemented an API Gateway using Spring Cloud Gateway to act as a single entry point for routing and request handling. Secured inter-service communication using JWT authentication and centralized security logic. Containerized all services with Docker and managed service-to-service communication using REST APIs, improving scalability and maintainability.",
@@ -57,18 +77,6 @@ export const projectsData = [
     code: "https://github.com/KillerHeller6203",
     demo: "",
     image: microservices,
-  },
-
-  {
-      id: 4,
-      name: 'AI Avatar Interaction System',
-      description: "Real-time, voice-based AI interview system enabling low-latency conversations using STT, LLMs, and TTS. Built a WebSocket-driven streaming pipeline with FastAPI to handle bi-directional audio and token streaming. Integrated offline Whisper for speech-to-text, streaming LLM inference, and browser-side audio playback with clean session and state isolation. Designed a modular backend architecture separating STT, LLM, and TTS components for scalability and production readiness.",
-      tools: ['Python', 'FastAPI', 'WebSockets', 'Whisper (STT)', 'LLMs', 'TTS', 'Next.js', 'React', 'FFmpeg', 'Web Audio API'],
-      role: 'AI Systems Engineer | Real-Time AI Developer',
-      link: "https://github.com/KillerHeller6203/Ai-Avatar-Interaction",
-      code: "https://github.com/KillerHeller6203/Aqua-Sense-AI",
-      demo: "",
-      image: chat,
   },
   {
       id: 5,
