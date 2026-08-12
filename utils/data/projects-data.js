@@ -11,7 +11,7 @@ export const projectsData = [
     tools: ['Python', 'FastAPI', 'WebSockets', 'Whisper (STT)', 'LLMs', 'TTS', 'Next.js', 'React', 'FFmpeg', 'Web Audio API'],
     role: 'AI Systems Engineer | Real-Time AI Developer',
     link: "https://github.com/KillerHeller6203/Ai-Avatar-Interaction",
-    code: "https://github.com/KillerHeller6203/Aqua-Sense-AI",
+    code: "https://github.com/KillerHeller6203",
     demo: "",
     image: chat,
 },
