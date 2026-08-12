@@ -15,7 +15,7 @@ export const experiences = [
     company: "Working as an AI Engineer building production-grade AI agent systems and MCP (Model Context Protocol) servers. Designed and developed multi-step autonomous agents using LangGraph, built grounded RAG pipelines for document-aware AI applications, and created MCP servers to expose tools and context to LLMs in a standardized way. Integrated agentic workflows into full-stack applications with a focus on reliability and real-world usability.",
     description:
       "Working as an AI Engineer building production-grade AI agent systems and MCP (Model Context Protocol) servers. Designed and developed multi-step autonomous agents using LangGraph, built grounded RAG pipelines for document-aware AI applications, and created MCP servers to expose tools and context to LLMs in a standardized way. Integrated agentic workflows into full-stack applications with a focus on reliability and real-world usability.",
-    duration: "( MAR 2026 - Present)",
+    duration: "( Mar 2026 - May 2026)",
   },
   {
     id: 3,
@@ -24,6 +24,6 @@ export const experiences = [
     company: "Built backend systems using Java (Spring Boot) and Python (FastAPI). Implemented JWT authentication, REST APIs, microservices architecture, PostgreSQL integration, Docker-based setup, and real-time communication using WebSockets across multiple projects.",
     description:
       "Built backend systems using Java (Spring Boot) and Python (FastAPI). Implemented JWT authentication, REST APIs, microservices architecture, PostgreSQL integration, Docker-based setup, and real-time communication using WebSockets across multiple projects.",
-    duration: "(2023 - Present)",
+    duration: "(2023 - 2026)",
   },
 ];
