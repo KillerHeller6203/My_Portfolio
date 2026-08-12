@@ -4,14 +4,14 @@ export const educations = [
     title: "Bachelor Of Engineering",
     duration: "2022 - Present",
     institution: "Vellore Institute Of Technology",
-    cgpa: "8.1"
+    cgpa: "8.77"
   },
   {
     id: 2,
     title: "Higher Secondary Certificate(CBSE)",
     duration: "2019 - 2021",
     institution: "Delhi Public School,Ruby Park,Kolkata",
-    percentage:"81.1%"
+    percentage:"91.1%"
   },
   {
     id: 3,
